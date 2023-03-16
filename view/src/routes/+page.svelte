@@ -11,18 +11,11 @@
 
 <section>
 	<h1>
-		<span class="welcome">
-			<picture>
-				<source srcset={welcome} type="image/webp" />
-				<img src={welcome_fallback} alt="Welcome" />
-			</picture>
-		</span>
-
-		to your new<br />SvelteKit app
+		TIME TO<br />VOTE ??
 	</h1>
 
 	<h2>
-		try editing <strong>src/routes/+page.svelte</strong>
+		see available polls <strong><a href="/sverdle">here</a></strong>
 	</h2>
 
 	<Counter />

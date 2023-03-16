@@ -18,5 +18,12 @@
   "bugs": {
     "url": "https://github.com/AZIZXlaouiti/voting-system/issues"
   },
-  "homepage": "https://github.com/AZIZXlaouiti/voting-system#readme"
+  "homepage": "https://github.com/AZIZXlaouiti/voting-system#readme",
+  "dependencies": {
+    "async": "^3.2.4",
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "rethinkdb": "^2.4.2",
+    "socket.io": "^4.6.1"
+  }
 }
