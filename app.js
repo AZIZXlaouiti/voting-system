@@ -5,7 +5,9 @@ let express = require('express'),
 
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended: true }))
-app.use('/' , router)
+
+// telling app.js to use controller folder as the route
+app.use(require('./controllers'))
 
 app.get('/' , function(req , res){
     res.send('ok')
