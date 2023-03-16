@@ -43,6 +43,7 @@ class db {
                 },
 
             ],function(err, data){
+                console.log('all tasks are complete')
                 console.log(data)
             })
     }
@@ -51,7 +52,7 @@ class db {
             host : 'localhost',
             port : 28015
         }, function(err, conn){
-            callback(err, connection)
+            callback(err, conn)
         })
     }
     connectToDb(callback){
@@ -60,7 +61,7 @@ class db {
             port : 28015,
             db : 'voting'
         }, function(err, conn){
-            callback(err, connection)
+            callback(err, conn)
         })
     }
 }
