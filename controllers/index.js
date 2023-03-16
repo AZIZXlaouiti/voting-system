@@ -8,6 +8,6 @@ let express = require('express'),
 */
 
 router.use('/', require('./home')) // using home.js
-router.use('/polls', require('./polls')) // using polls.js
+router.use('/polls', require('./polls')) // using polls.js 
 
 module.exports = router
