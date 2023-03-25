@@ -15,7 +15,7 @@ class db {
                 function(callback){
                     self.connectToRethinkDbServer(function(err , conn){
                         if (err){
-                            return callback(true, 'Error in connection RethinkDB')
+                            return callback(true, 'Error in connection with RethinkDB')
                         }
                         callback(null, conn)
                     })
