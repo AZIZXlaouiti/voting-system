@@ -5,7 +5,7 @@
     </div>
     <div class="Header-item">
         <!-- <a href="#" class="Header-link">Releases</a> -->
-        <button class="btn mr-2" type="button">Available polls</button>
+        <button class="btn btn-primary" type="button">Available polls</button>
     </div>
     <div class="Header-item">
         <!-- <a href="#" class="Header-link">Team</a> -->
@@ -13,15 +13,7 @@
     </div>
 </div>  
 <section>
-    
     <form>
-
-        <div class="BtnGroup d-block mb-2 ml-0 mt-2">
-            <button class="BtnGroup-item btn btn-outline" type="button">Vote</button>
-            <button class="BtnGroup-item btn btn-outline" type="button">Available polls</button>
-            <button class="BtnGroup-item btn btn-danger btn-outline" type="button">Clear</button>
-        </div>
-        
   <div class="TimelineItem">
     <div class="TimelineItem-badge">
       <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" class="octicon">
@@ -44,8 +36,6 @@
         <input class="radio-input" id="option-b" type="radio" name="options">
         <label class="radio-label" for="option-b">Option B</label>
       </div>
-    
-
   </div>
   <div class="TimelineItem">
     <div class="TimelineItem-badge">
@@ -61,6 +51,11 @@
     
 
   </div>
+  <div class="BtnGroup d-block mb-2 ml-0 mt-2">
+    <button class="BtnGroup-item btn btn-outline" type="button">Vote</button>
+    <button class="BtnGroup-item btn btn-outline" type="button">Available polls</button>
+    <button class="BtnGroup-item btn btn-danger btn-outline" type="button">Clear</button>
+</div>
 </form>
 </section>
   <style>
